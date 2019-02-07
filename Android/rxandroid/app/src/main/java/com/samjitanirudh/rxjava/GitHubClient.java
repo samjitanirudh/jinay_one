@@ -1,4 +1,4 @@
-package com.chrisarriola.githubrxjava;
+package com.samjitanirudh.rxjava;
 
 import android.support.annotation.NonNull;
 import com.google.gson.FieldNamingPolicy;
