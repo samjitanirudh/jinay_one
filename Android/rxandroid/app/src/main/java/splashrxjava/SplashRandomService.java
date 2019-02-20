@@ -13,7 +13,7 @@ import rx.Observable;
         Observable<SplashRandomImage> getRandomImages();
 
         @GET("images/latest")
-        Observable<List<SplashRandomImage>> getLatestImages();
+        Observable<SplashRandomImageList> getLatestImages();
 
         @GET("images/search?query={search}")
         Observable<List<SplashRandomImage>> getSearchImage(@Path("search") String searchTerm);

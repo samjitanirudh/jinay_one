@@ -39,7 +39,7 @@ public class SplashRandomClient {
         return splashService.getRandomImages();
     }
 
-    public Observable<List<SplashRandomImage>> getLatestImage() {
+    public Observable<SplashRandomImageList> getLatestImage() {
         return splashService.getLatestImages();
     }
 
